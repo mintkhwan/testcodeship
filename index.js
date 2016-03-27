@@ -1,16 +1,16 @@
 /* global describe,it */
-var num1 = 5
-var num2 = 5
-function sum (num1, num2) {
+var num1 = 1
+var num2 = 2
+function plus (num1, num2) {
   return num1 + num2
 }
-console.log(sum(num1, num2))
+console.log(plus(num1, num2))
 
 var assert = require('assert')
 describe('check sum function', function () {
-  describe('sum()', function () {
+  describe('plus()', function () {
     it('should return 3', function () {
-      assert.equal(sum(num1, num2), 10)
+      assert.equal(plus(num1, num2), 3)
     })
   })
 })
