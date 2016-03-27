@@ -10,7 +10,7 @@ var assert = require('assert')
 describe('check sum function', function () {
   describe('plus()', function () {
     it('should return 3', function () {
-      assert.equal(plus(num1, num2), 3)
+      assert.equal(plus(num1, num2), 4)
     })
   })
 })
