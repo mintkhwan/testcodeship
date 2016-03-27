@@ -1,0 +1,19 @@
+{
+  "name": "mint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintkhwan/testcodeship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mintkhwan/testcodeship/issues"
+  },
+  "homepage": "https://github.com/mintkhwan/testcodeship#readme"
+}
